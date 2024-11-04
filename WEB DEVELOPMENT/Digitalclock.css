@@ -1,0 +1,21 @@
+body{
+    background-image: url(backiee-304596.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+#clockcontainer{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+#clock{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}

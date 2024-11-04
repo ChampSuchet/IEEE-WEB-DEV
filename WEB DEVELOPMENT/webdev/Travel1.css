@@ -1,0 +1,152 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 100%;
+    background-color: black;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    background-image: url(aplanelogoa.png); /* Replace with your logo image */
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.pa {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.elements {
+    display: flex;
+    gap: 20px; /* Adds space between links */
+    margin-left: auto;
+}
+
+.elements a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: color 0.5s;
+}
+
+.elements a:hover {
+    color: #ff0000; /* Highlight color on hover */
+}
+
+#Home{
+    height: 300px;
+    max-width: 100%;
+    font-family: cursive;
+    font-size: large;
+    display: flex;
+}
+
+h1{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 200px;
+}
+
+.text{
+    line-height: 35px;
+    margin-left: 20px;
+    max-width: 60%;
+    margin-top: 10px;
+    transition: 5s ease-in-out;
+
+}
+.picinichome{
+    background-image: url(picnic.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    opacity: 80%;
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 30%;
+    transition: 1000ms ease-in-out ;
+}
+
+#Destination{
+    height: 1300px;
+    max-width: 100%;
+    font-family: cursive;
+    font-size: large;
+    display: flex;
+}
+
+.picinicdestination{
+    height: 1300px;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: 50px;
+    transition: 1000ms ease-in-out;
+}
+.h1{
+    background-image: url(italy.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    opacity: 80%;
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 30%;
+
+    transition: 1000ms ease-in-out;
+    margin-bottom: 80px;
+}
+.h2{
+    background-image: url(kyoto.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    opacity: 80%;
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 30%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    transition: 1000ms ease-in-out;
+}
+.h3{
+    background-image: url(sydney.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    opacity: 80%;
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 30%;
+    margin-top: 100px;
+
+    transition: 1000ms ease-in-out;
+}

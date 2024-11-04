@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Wanderlust Adventures | Home</title>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <span class="text-2xl font-bold text-blue-600">Wanderlust</span>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="index.html" class="py-4 px-2 text-blue-600 border-b-4 border-blue-600 font-semibold">Home</a>
+                        <a href="destinations.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Destinations</a>
+                        <a href="packages.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Packages</a>
+                        <a href="blog.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Blog</a>
+                        <a href="contact.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <i class="fas fa-bars text-gray-500 text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="hidden mobile-menu md:hidden">
+            <ul class="px-2 py-3 space-y-2">
+                <li><a href="index.html" class="block text-sm px-2 py-4 text-white bg-blue-600 font-semibold">Home</a></li>
+                <li><a href="destinations.html" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Destinations</a></li>
+                <li><a href="packages.html" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Packages</a></li>
+                <li><a href="blog.html" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Blog</a></li>
+                <li><a href="contact.html" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative pt-16">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover" src="/api/placeholder/1920/600" alt="Travel Background">
+            <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Discover Your Next Adventure</h1>
+            <p class="mt-6 text-xl text-gray-300 max-w-3xl">Experience the world's most breathtaking destinations with our carefully curated travel packages.</p>
+            <div class="mt-10">
+                <a href="#featured-destinations" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                    Explore Destinations
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-12">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-700">Destination</label>
+                    <select class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 rounded-md">
+                        <option>Choose destination</option>
+                        <option>Europe</option>
+                        <option>Asia</option>
+                        <option>Americas</option>
+                    </select>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-700">Check In</label>
+                    <input type="date" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 rounded-md">
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-700">Check Out</label>
+                    <input type="date" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 rounded-md">
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-700">Travelers</label>
+                    <select class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 rounded-md">
+                        <option>1 Person</option>
+                        <option>2 People</option>
+                        <option>3 People</option>
+                        <option>4+ People</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button class="w-full bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition duration-300">
+                    Search Packages
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Destinations -->
+    <div id="featured-destinations" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Featured Destinations</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Destination Card 1 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-48 object-cover" src="/api/placeholder/600/400" alt="Paris">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900">Paris, France</h3>
+                    <p class="mt-2 text-gray-600">Experience the city of love with our exclusive Paris getaway package.</p>
+                    <div class="mt-4">
+                        <span class="text-blue-600 font-semibold">From $1,299</span>
+                        <a href="#" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination Card 2 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-48 object-cover" src="/api/placeholder/600/400" alt="Bali">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900">Bali, Indonesia</h3>
+                    <p class="mt-2 text-gray-600">Discover paradise on earth with our Bali adventure package.</p>
+                    <div class="mt-4">
+                        <span class="text-blue-600 font-semibold">From $899</span>
+                        <a href="#" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination Card 3 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-48 object-cover" src="/api/placeholder/600/400" alt="Tokyo">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900">Tokyo, Japan</h3>
+                    <p class="mt-2 text-gray-600">Immerse yourself in Japanese culture with our Tokyo explorer package.</p>
+                    <div class="mt-4">
+                        <span class="text-blue-600 font-semibold">From $1,499</span>
+                        <a href="#" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us -->
+    <div class="bg-gray-100 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Why Choose Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="inline-block p-4 bg-blue-600 rounded-full text-white mb-4">
+                        <i class="fas fa-globe text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Global Coverage</h3>
+                    <p class="text-gray-600">Destinations across all continents</p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block p-4 bg-blue-600 rounded-full text-white mb-4">
+                        <i class="fas fa-dollar-sign text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Best Prices</h3>
+                    <p class="text-gray-600">Guaranteed best rates</p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block p-4 bg-blue-600 rounded-full text-white mb-4">
+                        <i class="fas fa-headset text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+                    <p class="text-gray-600">Always here to help you</p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block p-4 bg-blue-600 rounded-full text-white mb-4">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Secure Booking</h3>
+                    <p class="text-gray-600">Safe and secure transactions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="bg-blue-600 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Subscribe to Our Newsletter</h2>
+                <p class="text-white mb-8">Get the latest travel deals and updates delivered to your inbox.</p>
+                <form class="max-w-md mx-auto">
+                    <div class="flex gap-4">
+                        <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded-md focus:outline-none">
+                        <button type="submit" class="px-6 py-2 bg-white text-blue-600 rounded-md font-medium hover:bg-gray-100 transition duration-300">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400">Wanderlust Adventures is your trusted partner for unforgettable travel experiences around the world.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Destinations</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Packages</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+
+                    </ul>
+                    </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

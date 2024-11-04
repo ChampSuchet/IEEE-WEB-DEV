@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stopwatch.css">
+    <title>STOPWATCH</title>
+</head>
+<body>
+    <form id="stopwatchcontainer">
+        <h1>STOPWATCH</h1>
+        <div id="display">00:00:00:00</div>
+        <div id="buttons">
+            <!-- Set button type to button -->
+            <button type="button" id="startbtn" onclick="start()">START</button>
+            <button type="button" id="resettbtn" onclick="reset1()">RESET</button>
+            <button type="button" id="endtbtn" onclick="end()">END</button>
+        </div>
+    </form>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

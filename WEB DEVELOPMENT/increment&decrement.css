@@ -1,0 +1,30 @@
+#contain_label{
+    display: block;
+    text-align: center;
+    font-size: 30em;
+    font-family: Helvetica;
+}
+#btnconatiner{
+    text-align: center;
+}
+.buttons{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    margin: 25px;
+}
+.buttons:hover{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight:bolder;
+}
+form{
+    background-color: black;
+    max-width: 450px;
+    margin-left: 600px;
+    margin-top: 30px;
+    color: aliceblue;
+}

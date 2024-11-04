@@ -1,0 +1,46 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    background-color: azure;
+    text-align: center;
+    max-width: 350px;
+    margin-left: 560px;
+    margin-top: 100px;
+    height: 400px;
+    box-shadow: 3px 3px 40px;
+}
+form:hover{
+    background-color: black;
+    color: white;
+}
+#numofdice{
+    text-align: center;
+    font-size: 1.65em;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(162, 240, 240);
+}
+button{
+    font-size: larger;
+    font-weight: lighter;
+    background-color: rgb(198, 196, 190);
+}
+button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+label{
+    font-size: larger;
+    font-weight: bolder;
+}
+#diceresult{
+    color: darkcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: larger;
+}
